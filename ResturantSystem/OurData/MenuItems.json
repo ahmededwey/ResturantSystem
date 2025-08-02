@@ -1,0 +1,162 @@
+[
+  {
+    "Id": 1,
+    "Title": "Kabab",
+    "Description": "Grilled lamb cubes served with rice or bread",
+    "Price": 15.99,
+    "ItemSize": "Large",
+    "Category": "Grill"
+  },
+  {
+    "Id": 2,
+    "Title": "Kofta",
+    "Description": "Grilled minced meat skewers with spices",
+    "Price": 13.49,
+    "ItemSize": "Large",
+    "Category": "Grill"
+  },
+  {
+    "Id": 3,
+    "Title": "Molokhia",
+    "Description": "Green soup made with jute leaves, garlic, and coriander",
+    "Price": 7.25,
+    "ItemSize": "Medium",
+    "Category": "Soup"
+  },
+  {
+    "Id": 4,
+    "Title": "Koshari",
+    "Description": "Rice, pasta, lentils, tomato sauce, chickpeas and fried onions",
+    "Price": 6.50,
+    "ItemSize": "Large",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 5,
+    "Title": "Fattah",
+    "Description": "Rice and fried bread with garlic vinegar sauce and beef",
+    "Price": 11.00,
+    "ItemSize": "Large",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 6,
+    "Title": "Baba Ghanoush",
+    "Description": "Grilled eggplant dip with tahini and lemon juice",
+    "Price": 4.75,
+    "ItemSize": "Small",
+    "Category": "Salad"
+  },
+  {
+    "Id": 7,
+    "Title": "Lentil Soup",
+    "Description": "Warm lentil soup with carrots, onions, and cumin",
+    "Price": 5.50,
+    "ItemSize": "Medium",
+    "Category": "Soup"
+  },
+  {
+    "Id": 8,
+    "Title": "Tamiya (Falafel)",
+    "Description": "Fried patties made from fava beans and herbs",
+    "Price": 3.99,
+    "ItemSize": "Small",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 9,
+    "Title": "Stuffed Vine Leaves",
+    "Description": "Grape leaves filled with rice and herbs",
+    "Price": 6.25,
+    "ItemSize": "Small",
+    "Category": "Appetizer"
+  },
+  {
+    "Id": 10,
+    "Title": "Hawawshi",
+    "Description": "Spiced minced meat baked inside baladi bread",
+    "Price": 9.25,
+    "ItemSize": "Medium",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 11,
+    "Title": "Shawarma Sandwich",
+    "Description": "Grilled marinated meat wrapped in pita bread",
+    "Price": 7.99,
+    "ItemSize": "Medium",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 12,
+    "Title": "Macarona Bechamel",
+    "Description": "Baked pasta with ground beef and béchamel sauce",
+    "Price": 10.25,
+    "ItemSize": "Large",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 13,
+    "Title": "Feseekh",
+    "Description": "Fermented salted fish served with onions and bread",
+    "Price": 14.00,
+    "ItemSize": "Medium",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 14,
+    "Title": "Roz Meammar",
+    "Description": "Baked creamy rice dish made with milk and butter",
+    "Price": 6.00,
+    "ItemSize": "Medium",
+    "Category": "MainDish"
+  },
+  {
+    "Id": 15,
+    "Title": "Basbousa",
+    "Description": "Sweet semolina cake soaked in sugar syrup",
+    "Price": 4.50,
+    "ItemSize": "Small",
+    "Category": "Dessert"
+  },
+  {
+    "Id": 16,
+    "Title": "Om Ali",
+    "Description": "Egyptian bread pudding with nuts and milk",
+    "Price": 5.75,
+    "ItemSize": "Small",
+    "Category": "Dessert"
+  },
+  {
+    "Id": 17,
+    "Title": "Qamar El Din Juice",
+    "Description": "Apricot-based drink served cold during Ramadan",
+    "Price": 2.99,
+    "ItemSize": "Small",
+    "Category": "Drink"
+  },
+  {
+    "Id": 18,
+    "Title": "Karkadeh",
+    "Description": "Hibiscus tea served hot or cold",
+    "Price": 2.50,
+    "ItemSize": "Small",
+    "Category": "Drink"
+  },
+  {
+    "Id": 19,
+    "Title": "Grilled Chicken",
+    "Description": "Marinated chicken grilled over charcoal",
+    "Price": 12.00,
+    "ItemSize": "Large",
+    "Category": "Grill"
+  },
+  {
+    "Id": 20,
+    "Title": "Egyptian Salad",
+    "Description": "Cucumber, tomato, onion, lemon juice, olive oil",
+    "Price": 3.99,
+    "ItemSize": "Small",
+    "Category": "Salad"
+  }
+]
