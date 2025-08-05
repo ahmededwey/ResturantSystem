@@ -40,59 +40,9 @@ namespace ResturantSystem.Modules
         }
 
         // Collect Order from user
-        public void SetOrder()
-        {
-            Console.Clear();
-            Menu.showMenu();
+      
 
-            var menuItems = Menu.AllMenuItems;
-            Items.Clear();
-
-            Console.WriteLine("Enter Item IDs to add to your order (enter 0 to finish):");
-
-            while (true)
-            {
-                Console.Write("Enter item ID: ");
-                if (int.TryParse(Console.ReadLine(), out int id))
-                {
-                    if (id == 0)
-                        break;
-
-                    var menuItem = menuItems.FirstOrDefault(m => m.Id == id);
-                    if (menuItem != null)
-                    {
-                        Console.Write($"Enter quantity for {menuItem.Title}: ");
-                        if (int.TryParse(Console.ReadLine(), out int quantity) && quantity > 0)
-                        {
-                            if (Items.ContainsKey(menuItem))
-                                Items[menuItem] += quantity;
-                            else
-                                Items.Add(menuItem, quantity);
-
-                            Console.WriteLine($"✔ Added: {menuItem.Title} x{quantity}");
-                        }
-                        else
-                        {
-                            Console.WriteLine("❌ Invalid quantity.");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("❌ Item not found.");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("❌ Invalid input.");
-                }
-            }
-
-            Console.Clear();
-            Console.WriteLine("✅ Order Summary:");
-            Console.WriteLine(this);
-        }
-
-        // Cancel the order
+       
         public void CancelOrder()
         {
             OrderStatus = OrderStatus.Cancelled;

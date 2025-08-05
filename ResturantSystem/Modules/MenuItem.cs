@@ -5,6 +5,8 @@ namespace ResturantSystem.Modules
 {
     public class MenuItem
     {
+      
+
         // Properties
         public int Id { get; set; }
         public string? Title { get; set; }
@@ -26,6 +28,8 @@ namespace ResturantSystem.Modules
             ItemSize = itemSize;
             Category = category;
         }
+
+     
 
         // Override ToString - Grid Style
         public override string ToString()
